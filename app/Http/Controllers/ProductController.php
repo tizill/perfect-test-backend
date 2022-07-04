@@ -43,7 +43,7 @@ class ProductController extends Controller
             $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
             $extension = $request->file('image_product')->getClientOriginalExtension();
             $fileNameToStore= $filename.'_'.time().'.'.$extension;
-            $path = $request->file('image-product')->storeAs('public/image', $fileNameToStore);
+            $path = $request->file('image_product')->storeAs('public/image', $fileNameToStore);
         }else{
             $fileNameToStore = 'noimage.png';
         }

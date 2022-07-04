@@ -1,6 +1,7 @@
 # Como rodar o Projeto: 
 - Apos Clonar o projeto com git clone git@github.com:seuprojeto
 - Acesse o projeto com: cd nomeprojeto
+- Verifique a Branch Selecionada
 - Instale as dependecias e o framework com: composer install --no-scripts
 - Copie o arquivo .env.example com: cp .env.example .env
 - Crie uma nova chave para a aplicação com: php artisan key:generate
