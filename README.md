@@ -8,12 +8,11 @@
 ## Run: 
 ```bash
   git clone https://github.com/tizill/perfect-test-backend.git 
-  cd perfect-test-backend
-  npm install **or** yarn
+  cd perfect-test-backend 
   composer install --no-scripts
   cp .env.example .env
   php artisan key:generate
-  npm install
+  npm install **or** yarn
   php artisan storage:link
 ```
 -- Explicação passo a passo: --
