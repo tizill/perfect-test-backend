@@ -1,4 +1,22 @@
-# Como rodar o Projeto: 
+## Stacks
+
+- Laravel
+- Seqielize
+- Mysql
+- Blade
+
+## Run: 
+```bash
+  git clone https://github.com/tizill/perfect-test-backend.git 
+  cd perfect-test-backend
+  npm install **or** yarn
+  composer install --no-scripts
+  cp .env.example .env
+  php artisan key:generate
+  npm install
+  php artisan storage:link
+```
+-- Explicação passo a passo: --
 - Apos Clonar o projeto com git clone git@github.com:seuprojeto
 - Acesse o projeto com: cd nomeprojeto
 - Verifique a Branch Selecionada
