@@ -1,6 +1,5 @@
 @extends('layout')
-@section('content')
-
+@section('content') 
 @if(Request::is('*/edit/*'))
     <h1>Editar Venda</h1>
     <div class='card'>
@@ -85,7 +84,7 @@
             </form>
         </div>
     </div>
-@else
+@else 
     <h1>Adicionar</h1>
     <div class='card'>
         <div class='card-body'>
