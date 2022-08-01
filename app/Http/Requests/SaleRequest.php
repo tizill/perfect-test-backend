@@ -31,7 +31,7 @@ class SaleRequest extends FormRequest
             'cpf_client' => ['required','cpf'],
             'quantity_sale' => ['required'],
             'discounts_sale' => ['required'],
-            'status_sale' => ['required', 'interger'],
+            'status_sale' => ['required', 'integer'],
         ];
     }
 
